@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css"/>
+    <style>
+       body{
+        height: 2000px;
+       }
+        div{
+            width:100px;
+            height: 100px;
+            /* display: inline-block; */
+        }
+        .div1{
+            /* height:200px; */
+            background-color: rgb(250, 26, 227);
+            position: absolute;
+            top:calc(50% - 150px);
+            left:calc(50% - 50px);
+         
+            
+            /* float: left; */
+        }
+        .div2{
+            background-color: blue;
+            position: absolute;
+            top:calc(50% - 50px);
+            left:calc(50% - 50px);
+           
+            /* position: sticky; */
+            /* position: relative; */
+            /* position: absolute; */
+            /* position: fixed; */
+            /* top:60px; */
+            /* bottom:10px; */
+            /* left:10px; */
+            /* right:10px; */
+            /* float: left; */
+        }
+        .div3{
+            background-color: greenyellow;
+            position: absolute;
+            top:calc(50% + 50px);
+            left:calc(50% - 50px);
+            /* clear:both; */
+        }
+       .parent{
+        width:500px;
+        height:500px;
+        background-color: black;
+        border:1px solid;
+        box-sizing: border-box;
+        /* padding-left: calc(250px - 50px);
+        padding-top: calc(250px - 150px); */
+        /* padding-top: 20px; */
+        position: relative;
+        left:400px;
+        top:200px;
+       }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="div1">hello</div>
+        <div class="div2">hello</div>
+        <div class="div3">hello</div>
+    </div>
+  
+    <!-- <span>hello</span> -->
+</body>
+</html>

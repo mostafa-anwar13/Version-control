@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /* @media screen and (min-width:500.99px) and (max-width:900px){
+            p{
+                color:blue;
+            }
+            
+        }
+        @media screen and (max-width:500px){
+            p{
+                color:red;
+            }
+            
+        }
+        @media print{
+            p{
+                color:orange;
+            }
+        } */
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .sectionCourses {
+        /* background-color: gray; */
+      }
+      .row {
+        width: 70%;
+        margin: auto;
+        /* background-color: burlywood; */
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        row-gap: 20px;
+      }
+      .card {
+        width: 29%;
+        background-color:rgb(238, 244, 246);
+      }
+      .cardImage {
+        background-image: url(images/1.jpg);
+        height: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .cardInfo {
+        width: 80%;
+        margin: 50px auto;
+      }
+      @media screen and (min-width:700.99px) and (max-width:1000px) {
+        .card{
+            width:48%;
+        }
+        
+      }
+      @media screen and (max-width:700px){
+        .card{
+            width:98%;
+        }
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sectionCourses">
+      <div class="row">
+        <div class="card">
+          <div class="cardImage"></div>
+          <div class="cardInfo">
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>25 courses</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImage"></div>
+          <div class="cardInfo">
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>25 courses</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImage"></div>
+          <div class="cardInfo">
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>25 courses</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImage"></div>
+          <div class="cardInfo">
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>25 courses</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cardImage"></div>
+          <div class="cardInfo">
+            <h3>web design</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>25 courses</p>
+          </div>
+        </div>
+        <div class="card">
+            <div class="cardImage"></div>
+            <div class="cardInfo">
+              <h3>web design</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+              <p>25 courses</p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </body>
+</html>
