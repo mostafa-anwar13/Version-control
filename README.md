@@ -14,3 +14,16 @@
     git checkout test 
     git checkout dev 
     git stash pop
+
+
+- how to list tag 
+    git tag
+
+- how to delete tag locally
+        git tag -d v1.7
+
+- how to delete tag remotly
+        git push tag :v1.7
+
+-add image in the README file 
+     <img src="images/1.jpg" alt="">
